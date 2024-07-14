@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <h2>Celcius to Farenheit Conversion</h2>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                <input type="text" class="form-control" placeholder="Celcius" id="celcius1">
+                </div>
+                <div class="col">
+                <input type="text" class="form-control" placeholder="Farenheit" id="farenheit1" readonly>
+                </div>
+                <!-- <button type="button" onclick="getTemperatureValue()" class="btn btn-primary">Convert</button> -->
+                <!-- <button type="button" onclick="farenheitOutput()" class="btn btn-primary">Convert</button> -->
+                <button type="button" class="btn btn-primary" id="buttonCToF">Convert</button>
+            </div>
+          <!-- <button type="button" onclick="buyTicket()">Convert</button> -->
+  
+        </form>
+
+    </section>
+    <br>
+    <br>
+    <section>
+        <h2>Farenheit to Celcius Conversion</h2>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Farenheit" id="farenheit2" >
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Celcius" id="celcius2"readonly>
+                </div>
+                <!-- <button type="button" onclick="getTemperatureValue()" class="btn btn-primary">Convert</button> -->
+                <!-- <button type="button" onclick="farenheitOutput()" class="btn btn-primary">Convert</button> -->
+                <button type="button" class="btn btn-primary" id="buttonFToC">Convert</button>
+            </div>
+            <!-- <button type="button" onclick="buyTicket()">Convert</button> -->
+  
+        </form>
+
+    </section>
+    <form>
+
+
+      <script src="tempConvert1.js"></script>
+      <!-- <script>
+           function farenheitOutput(){
+                document.addEventListener("DOMContentLoaded", function() {
+            // Define the values to populate
+            const formData = {
+                farenheit: 10
+                };
+
+            // Get the form elements by their IDs
+            const tempFarenheitOutput = document.getElementById("farenheit");
+
+            // Set the values of the form elements
+            tempFarenheitOutput.value = formData.farenheit;
+
+            });
+
+           }
+
+       </script> -->
+    
+</body>
+</html>
